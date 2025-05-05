@@ -20,6 +20,7 @@ body{
     /* border: 2px solid black; */
     padding: 12px 28px;
     background-color: white;
+    
 }
 
 .nav-logo{
@@ -169,6 +170,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 
 .box1{
@@ -267,6 +269,20 @@ ul a{
     color: white;
 }
 
+
+.f {
+    height:235px;
+    width: 185px;
+    display:flex;
+    
+}
+.foot2{
+    height:50px;
+    background-color:rgb(18, 18, 18);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
