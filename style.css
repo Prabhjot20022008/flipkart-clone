@@ -247,7 +247,7 @@ body{
 
 .area{
     height: 600px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 16px;
     
     display: flex;
@@ -257,13 +257,13 @@ body{
 .plot{
     height: 600px;
     width: 475px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: white;
 }
 
 .head{
     height: 60px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 12px;
     font-size: 22px;
     font-weight: 700;
@@ -274,7 +274,7 @@ body{
 
 .body{
     height: 500px;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     display: flex;
     flex-wrap: wrap;
     padding-top: 10px;
@@ -283,9 +283,10 @@ body{
 }
 
 .part{
-    height: 200px;
+    height: 180px;
     width: 160px;
-    border: 2px solid black;
+     border: 0.5px solid gray; 
+     border-radius: 10px;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -294,13 +295,13 @@ body{
 .pic{
     height: 150px;
     width: 150px;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 
 .abt{
-    height: 40px;
+    height: 30px;
     width: 150px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .abt p{
