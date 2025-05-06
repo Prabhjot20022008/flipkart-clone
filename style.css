@@ -292,8 +292,39 @@ ul a{
     align-items: center;
 }
 
+.foot3{
+    height: 80px;
+    background-color:rgb(33, 31, 31) ;
+}
 
+.f3head{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.f3body{
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f3link{
+    height: 50px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.f3link i {
+    height: 40px;
+    width: 40px;
+    font-size: 1.5rem;
+    color: white;
+}
 
 
 
