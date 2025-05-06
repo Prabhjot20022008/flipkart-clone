@@ -245,6 +245,69 @@ body{
     font-size: 22px;
 }
 
+.area{
+    height: 600px;
+    border: 2px solid black;
+    margin: 16px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.plot{
+    height: 600px;
+    width: 475px;
+    border: 2px solid red;
+    background-color: white;
+}
+
+.head{
+    height: 60px;
+    border: 2px solid black;
+    padding: 12px;
+    font-size: 22px;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.body{
+    height: 500px;
+    border: 2px solid yellow;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+}
+
+.part{
+    height: 200px;
+    width: 160px;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pic{
+    height: 150px;
+    width: 150px;
+    border: 2px solid yellow;
+}
+
+.abt{
+    height: 40px;
+    width: 150px;
+    border: 2px solid black;
+}
+
+.abt p{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
 .footer{
     height: 300px;
     background-color: black;
