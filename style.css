@@ -401,5 +401,213 @@ ul a {
   color: white;
 }
 
+.f3link a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s;
+}
+
+.f3link a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Media Queries for Responsiveness */
+
+/* Large tablets and desktops */
+@media screen and (max-width: 1200px) {
+  .nav-shop {
+      display: none; /* Hide seller option on smaller screens */
+  }
+  
+  .plot {
+      width: calc(50% - 20px); /* 2 columns */
+  }
+}
+
+/* Medium tablets */
+@media screen and (max-width: 992px) {
+  .navbar {
+      height: auto;
+      flex-wrap: wrap;
+      padding: 10px;
+  }
+  
+  .nav-logo, .nav-search {
+      margin-bottom: 10px;
+  }
+  
+  .nav-search {
+      order: 3; /* Move search below logo and login */
+      width: 100%;
+      max-width: none;
+  }
+  
+  .hero-sec {
+      height: 120px;
+  }
+  
+  .item {
+      width: 160px;
+      height: 240px;
+  }
+  
+  .photo {
+      height: 150px;
+      width: 120px;
+  }
+}
+
+/* Small tablets and large phones */
+@media screen and (max-width: 768px) {
+  .optbar {
+      margin-top: 100px; /* Increased margin to accommodate wrapped navbar */
+  }
+  
+  .box1 {
+      height: 90px;
+      width: 80px;
+  }
+  
+  .box2 {
+      height: 50px;
+      width: 70px;
+  }
+  
+  .plot {
+      width: 100%; /* Full width */
+  }
+  
+  .part {
+      width: calc(50% - 10px); /* Keep 2 items per row */
+  }
+  
+  .foot1 {
+      justify-content: flex-start;
+      padding: 20px;
+  }
+  
+  .f {
+      width: 150px;
+      margin-right: 20px;
+  }
+}
+
+/* Small phones */
+@media screen and (max-width: 576px) {
+  .navbar {
+      padding: 8px;
+  }
+  
+  .nav-logo {
+      width: 100px;
+  }
+  
+  .logo {
+      width: 100px;
+  }
+  
+  .nav-login, .nav-cart {
+      padding: 8px 6px;
+  }
+  
+  .others {
+      padding: 8px 0;
+  }
+  
+  .optbar {
+      margin-top: 120px; /* Further increased margin */
+      justify-content: space-around;
+  }
+  
+  .box1 {
+      height: 80px;
+      width: 70px;
+      font-size: 12px;
+      margin: 4px;
+  }
+  
+  .box2 {
+      height: 45px;
+      width: 60px;
+  }
+  
+  .title {
+      font-size: 18px;
+      padding: 12px;
+  }
+  
+  .item {
+      width: 140px;
+      height: 220px;
+  }
+  
+  .photo {
+      height: 120px;
+      width: 100px;
+  }
+  
+  .info {
+      font-size: 16px;
+  }
+  
+  .head {
+      font-size: 18px;
+      height: 50px;
+  }
+  
+  .part {
+      height: 160px;
+      width: 100%; /* Full width on very small screens */
+      margin-bottom: 10px;
+  }
+  
+  .pic {
+      height: 110px;
+      width: 110px;
+  }
+  
+  .abt p {
+      font-size: 16px;
+  }
+  
+  ul p {
+      font-size: 1rem;
+  }
+  
+  ul a {
+      font-size: 0.8rem;
+  }
+}
+
+/* Very small phones */
+@media screen and (max-width: 375px) {
+  .nav-login span, .nav-cart span {
+      display: none; /* Hide text, keep icons */
+  }
+  
+  .nav-login, .nav-cart {
+      width: auto;
+  }
+  
+  .box1 {
+      height: 70px;
+      width: 60px;
+  }
+  
+  .box2 {
+      height: 40px;
+      width: 50px;
+  }
+  
+  .item {
+      width: 120px;
+      height: 200px;
+  }
+}
 
 
