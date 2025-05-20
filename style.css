@@ -380,6 +380,7 @@ ul a{
     display:flex;
     justify-content: center;
     align-items: center;
+    padding-right: 60px;
 }
 
 .foot3{
@@ -412,9 +413,22 @@ ul a{
 .f3link i {
     height: 40px;
     width: 40px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: white;
 }
 
+#facebook:hover{
+    color: blue;
+}
 
+#twitter:hover{
+  color: grey;
+}
 
+#youtube:hover{
+  color: red;
+}
+
+#instagram:hover{
+  color: #e1306c;
+}
